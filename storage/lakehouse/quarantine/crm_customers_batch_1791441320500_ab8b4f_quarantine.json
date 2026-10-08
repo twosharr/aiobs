@@ -1,0 +1,151 @@
+{
+  "batchId": "batch_1791441320500_ab8b4f",
+  "sourceName": "crm_customers",
+  "tier": "quarantine",
+  "quarantinedAt": "2026-10-08T06:35:20.507Z",
+  "violatedCount": 10,
+  "violationReason": "Data Contract Violation",
+  "agentDiagnosis": null,
+  "records": [
+    {
+      "row": {
+        "customer_id": "CUST_2000",
+        "full_name": "Customer 0",
+        "email": "client_0@enterprise-corp.com",
+        "tier": "GOLD",
+        "country": "US",
+        "signup_date": "2026-10-08T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2000' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2001",
+        "full_name": "Customer 1",
+        "email": "client_1@enterprise-corp.com",
+        "tier": "PLATINUM",
+        "country": "DE",
+        "signup_date": "2026-10-07T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2001' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2002",
+        "full_name": "Customer 2",
+        "email": "client_2@enterprise-corp.com",
+        "tier": "SILVER",
+        "country": "GB",
+        "signup_date": "2026-10-06T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2002' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2003",
+        "full_name": "Customer 3",
+        "email": "client_3@enterprise-corp.com",
+        "tier": "STANDARD",
+        "country": "IN",
+        "signup_date": "2026-10-05T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2003' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2006",
+        "full_name": "Customer 6",
+        "email": "client_6@enterprise-corp.com",
+        "tier": "SILVER",
+        "country": "DE",
+        "signup_date": "2026-10-02T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2006' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2007",
+        "full_name": "Customer 7",
+        "email": "client_7@enterprise-corp.com",
+        "tier": "STANDARD",
+        "country": "GB",
+        "signup_date": "2026-10-01T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2007' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2008",
+        "full_name": "Customer 8",
+        "email": "client_8@enterprise-corp.com",
+        "tier": "GOLD",
+        "country": "IN",
+        "signup_date": "2026-09-30T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2008' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2011",
+        "full_name": "Customer 11",
+        "email": "client_11@enterprise-corp.com",
+        "tier": "STANDARD",
+        "country": "DE",
+        "signup_date": "2026-09-27T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2011' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2015",
+        "full_name": "Customer 15",
+        "email": "client_15@enterprise-corp.com",
+        "tier": "STANDARD",
+        "country": "US",
+        "signup_date": "2026-09-23T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2015' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2019",
+        "full_name": "Customer 19",
+        "email": "client_19@enterprise-corp.com",
+        "tier": "STANDARD",
+        "country": "FR",
+        "signup_date": "2026-09-19T06:35:20.500Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2019' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    }
+  ]
+}

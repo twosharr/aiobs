@@ -1,0 +1,95 @@
+{
+  "batchId": "batch_1791441317999_f8a355",
+  "sourceName": "crm_customers",
+  "tier": "quarantine",
+  "quarantinedAt": "2026-10-08T06:35:18.005Z",
+  "violatedCount": 6,
+  "violationReason": "Data Contract Violation",
+  "agentDiagnosis": null,
+  "records": [
+    {
+      "row": {
+        "customer_id": "CUST_2001",
+        "full_name": "Customer 1",
+        "email": "client_1@enterprise-corp.com",
+        "tier": "PLATINUM",
+        "country": "DE",
+        "signup_date": "2026-10-07T06:35:17.999Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2001' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2006",
+        "full_name": "Customer 6",
+        "email": "client_6@enterprise-corp.com",
+        "tier": "SILVER",
+        "country": "DE",
+        "signup_date": "2026-10-02T06:35:17.999Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2006' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2010",
+        "full_name": "Customer 10",
+        "email": "client_10@enterprise-corp.com",
+        "tier": "SILVER",
+        "country": "US",
+        "signup_date": "2026-09-28T06:35:17.999Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2010' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2011",
+        "full_name": "Customer 11",
+        "email": "client_11@enterprise-corp.com",
+        "tier": "STANDARD",
+        "country": "DE",
+        "signup_date": "2026-09-27T06:35:17.999Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2011' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2013",
+        "full_name": "Customer 13",
+        "email": "client_13@enterprise-corp.com",
+        "tier": "PLATINUM",
+        "country": "IN",
+        "signup_date": "2026-09-25T06:35:17.999Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2013' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2017",
+        "full_name": "Customer 17",
+        "email": "client_17@enterprise-corp.com",
+        "tier": "PLATINUM",
+        "country": "GB",
+        "signup_date": "2026-09-21T06:35:17.999Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2017' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    }
+  ]
+}

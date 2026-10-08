@@ -1,0 +1,313 @@
+{
+  "batchId": "batch_1791441327960_e44d3a",
+  "tableName": "silver_transactions",
+  "tier": "silver",
+  "processedAt": "2026-10-08T06:35:27.967Z",
+  "recordCount": 30,
+  "qualityScore": 100,
+  "qualityMetrics": {
+    "score": 100
+  },
+  "records": [
+    {
+      "transaction_id": "TXN_100000",
+      "account_id": "ACC_1",
+      "amount": 66.07,
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100000",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100001",
+      "account_id": "ACC_2",
+      "amount": 79.41,
+      "currency": "EUR",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100001",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100002",
+      "account_id": "ACC_3",
+      "amount": 391.3,
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100002",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100003",
+      "account_id": "ACC_4",
+      "amount": 250.85,
+      "currency": "EUR",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100003",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100004",
+      "account_id": "ACC_5",
+      "amount": 73.43,
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100004",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100005",
+      "account_id": "ACC_6",
+      "amount": 97.54,
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100005",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100006",
+      "account_id": "ACC_7",
+      "amount": 394.2,
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100006",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100007",
+      "account_id": "ACC_8",
+      "amount": 386.91,
+      "currency": "GBP",
+      "status": "PENDING",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100007",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100008",
+      "account_id": "ACC_9",
+      "amount": 178.22,
+      "currency": "JPY",
+      "status": "FAILED",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100008",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100009",
+      "account_id": "ACC_10",
+      "amount": 458.91,
+      "currency": "JPY",
+      "status": "FAILED",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100009",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100010",
+      "account_id": "ACC_11",
+      "amount": 479.65,
+      "currency": "USD",
+      "status": "FAILED",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100010",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100011",
+      "account_id": "ACC_12",
+      "amount": 95.51,
+      "currency": "EUR",
+      "status": "PENDING",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100011",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100012",
+      "account_id": "ACC_13",
+      "amount": 503.5,
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100012",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100013",
+      "account_id": "ACC_14",
+      "amount": 96.8,
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100013",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100014",
+      "account_id": "ACC_15",
+      "amount": 406.46,
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100014",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100015",
+      "account_id": "ACC_1",
+      "amount": 417.66,
+      "currency": "GBP",
+      "status": "PENDING",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100015",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100016",
+      "account_id": "ACC_2",
+      "amount": 449.53,
+      "currency": "EUR",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100016",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100017",
+      "account_id": "ACC_3",
+      "amount": 33.16,
+      "currency": "GBP",
+      "status": "PENDING",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100017",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100018",
+      "account_id": "ACC_4",
+      "amount": 353.2,
+      "currency": "USD",
+      "status": "PENDING",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100018",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100019",
+      "account_id": "ACC_5",
+      "amount": 244.52,
+      "currency": "JPY",
+      "status": "FAILED",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100019",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100020",
+      "account_id": "ACC_6",
+      "amount": 43.09,
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100020",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100021",
+      "account_id": "ACC_7",
+      "amount": 56.44,
+      "currency": "JPY",
+      "status": "PENDING",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100021",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100022",
+      "account_id": "ACC_8",
+      "amount": 136.34,
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100022",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100023",
+      "account_id": "ACC_9",
+      "amount": 168.95,
+      "currency": "USD",
+      "status": "PENDING",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100023",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100024",
+      "account_id": "ACC_10",
+      "amount": 357.55,
+      "currency": "USD",
+      "status": "FAILED",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100024",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100025",
+      "account_id": "ACC_11",
+      "amount": 441.54,
+      "currency": "EUR",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100025",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100026",
+      "account_id": "ACC_12",
+      "amount": 187.82,
+      "currency": "GBP",
+      "status": "PENDING",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100026",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100027",
+      "account_id": "ACC_13",
+      "amount": 185.87,
+      "currency": "EUR",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100027",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100028",
+      "account_id": "ACC_14",
+      "amount": 55.92,
+      "currency": "EUR",
+      "status": "PENDING",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100028",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    },
+    {
+      "transaction_id": "TXN_100029",
+      "account_id": "ACC_15",
+      "amount": 350.52,
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T02:35:27.960Z",
+      "canonical_transaction_id": "TXN_100029",
+      "canonical_timestamp": "2026-10-08T02:35:27.960Z"
+    }
+  ]
+}

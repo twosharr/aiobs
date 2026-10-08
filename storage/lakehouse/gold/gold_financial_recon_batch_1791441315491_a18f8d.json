@@ -1,0 +1,22 @@
+{
+  "batchId": "batch_1791441315491_a18f8d",
+  "martName": "gold_financial_recon",
+  "tier": "gold",
+  "aggregatedAt": "2026-10-08T06:35:15.506Z",
+  "recordCount": 3,
+  "summaryMetrics": {},
+  "records": [
+    {
+      "metric": "total_clean_transactions",
+      "value": 30
+    },
+    {
+      "metric": "quarantined_count",
+      "value": 6
+    },
+    {
+      "metric": "data_quality_pct",
+      "value": 95.8
+    }
+  ]
+}

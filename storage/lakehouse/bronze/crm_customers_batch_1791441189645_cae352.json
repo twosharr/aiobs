@@ -1,0 +1,234 @@
+{
+  "batchId": "batch_1791441189645_cae352",
+  "sourceName": "crm_customers",
+  "tier": "bronze",
+  "ingestedAt": "2026-10-08T06:33:09.645Z",
+  "recordCount": 20,
+  "metadata": {
+    "drift": {
+      "sourceName": "crm_customers",
+      "timestamp": "2026-10-08T06:33:09.645Z",
+      "hasDrift": true,
+      "isBreaking": false,
+      "diff": {
+        "addedColumns": [
+          {
+            "column": "user_legacy_guid",
+            "detectedType": "string",
+            "severity": "INFO"
+          },
+          {
+            "column": "tax_identifier_raw",
+            "detectedType": "string",
+            "severity": "INFO"
+          }
+        ],
+        "missingColumns": [],
+        "typeMismatches": []
+      },
+      "baselineVersion": "1.0.0"
+    }
+  },
+  "records": [
+    {
+      "customer_id": "CUST_2000",
+      "full_name": "Customer 0",
+      "email": "client_0@enterprise-corp.com",
+      "tier": "GOLD",
+      "country": "US",
+      "signup_date": "2026-10-08T06:33:09.645Z",
+      "user_legacy_guid": "03ca8614-4f03-4d99-a30e-f6183afc7ff2",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2001",
+      "full_name": "Customer 1",
+      "email": "client_1@enterprise-corp.com",
+      "tier": "PLATINUM",
+      "country": "DE",
+      "signup_date": "2026-10-07T06:33:09.645Z",
+      "user_legacy_guid": "63371c88-71d8-4322-8cec-9821d9fad3e0",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2002",
+      "full_name": "Customer 2",
+      "email": "client_2@enterprise-corp.com",
+      "tier": "SILVER",
+      "country": "GB",
+      "signup_date": "2026-10-06T06:33:09.645Z",
+      "user_legacy_guid": "1351ce47-2900-40b7-ae21-bcf054643515",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2003",
+      "full_name": "Customer 3",
+      "email": "client_3@enterprise-corp.com",
+      "tier": "STANDARD",
+      "country": "IN",
+      "signup_date": "2026-10-05T06:33:09.645Z",
+      "user_legacy_guid": "e15b91bf-5d11-4c46-acb8-dfce2b324b1f",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2004",
+      "full_name": "Customer 4",
+      "email": "client_4@enterprise-corp.com",
+      "tier": "GOLD",
+      "country": "FR",
+      "signup_date": "2026-10-04T06:33:09.645Z",
+      "user_legacy_guid": "ce9dde10-2339-426d-9fd5-9ccb910ed2fb",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2005",
+      "full_name": "Customer 5",
+      "email": "client_5@enterprise-corp.com",
+      "tier": "PLATINUM",
+      "country": "US",
+      "signup_date": "2026-10-03T06:33:09.645Z",
+      "user_legacy_guid": "3b7a0fb7-ad56-4316-8fd7-cbac527e408a",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2006",
+      "full_name": "Customer 6",
+      "email": "client_6@enterprise-corp.com",
+      "tier": "SILVER",
+      "country": "DE",
+      "signup_date": "2026-10-02T06:33:09.645Z",
+      "user_legacy_guid": "b1281a90-0fa4-47ee-9f82-ad1649d4f58f",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2007",
+      "full_name": "Customer 7",
+      "email": "client_7@enterprise-corp.com",
+      "tier": "STANDARD",
+      "country": "GB",
+      "signup_date": "2026-10-01T06:33:09.645Z",
+      "user_legacy_guid": "4e84b2e1-6d96-4f3f-8f7c-6fc26b1e927e",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2008",
+      "full_name": "Customer 8",
+      "email": "client_8@enterprise-corp.com",
+      "tier": "GOLD",
+      "country": "IN",
+      "signup_date": "2026-09-30T06:33:09.645Z",
+      "user_legacy_guid": "d00b8eb1-b6b7-4c59-bb03-8e0defe0e88d",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2009",
+      "full_name": "Customer 9",
+      "email": "client_9@enterprise-corp.com",
+      "tier": "PLATINUM",
+      "country": "FR",
+      "signup_date": "2026-09-29T06:33:09.645Z",
+      "user_legacy_guid": "91c60a5b-fdc2-4b0f-b302-0f9feb31bce7",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2010",
+      "full_name": "Customer 10",
+      "email": "client_10@enterprise-corp.com",
+      "tier": "SILVER",
+      "country": "US",
+      "signup_date": "2026-09-28T06:33:09.645Z",
+      "user_legacy_guid": "390a02ef-3c18-4797-9b0d-4104a8c49a11",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2011",
+      "full_name": "Customer 11",
+      "email": "client_11@enterprise-corp.com",
+      "tier": "STANDARD",
+      "country": "DE",
+      "signup_date": "2026-09-27T06:33:09.645Z",
+      "user_legacy_guid": "910f1564-41ff-4225-936f-5322ee77bda8",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2012",
+      "full_name": "Customer 12",
+      "email": "client_12@enterprise-corp.com",
+      "tier": "GOLD",
+      "country": "GB",
+      "signup_date": "2026-09-26T06:33:09.645Z",
+      "user_legacy_guid": "06343758-d391-4e1f-8209-677ab9bd6bbb",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2013",
+      "full_name": "Customer 13",
+      "email": "client_13@enterprise-corp.com",
+      "tier": "PLATINUM",
+      "country": "IN",
+      "signup_date": "2026-09-25T06:33:09.645Z",
+      "user_legacy_guid": "4e946477-e06d-45ce-93a2-a083d5b0ab0b",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2014",
+      "full_name": "Customer 14",
+      "email": "client_14@enterprise-corp.com",
+      "tier": "SILVER",
+      "country": "FR",
+      "signup_date": "2026-09-24T06:33:09.645Z",
+      "user_legacy_guid": "d2cf987e-1d31-4fb8-bb3a-189bd0b29b72",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2015",
+      "full_name": "Customer 15",
+      "email": "client_15@enterprise-corp.com",
+      "tier": "STANDARD",
+      "country": "US",
+      "signup_date": "2026-09-23T06:33:09.645Z",
+      "user_legacy_guid": "19ee5727-0f56-41dd-99c9-311137ad1667",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2016",
+      "full_name": "Customer 16",
+      "email": "client_16@enterprise-corp.com",
+      "tier": "GOLD",
+      "country": "DE",
+      "signup_date": "2026-09-22T06:33:09.645Z",
+      "user_legacy_guid": "3167ecf7-7550-413b-ab72-07373e3dbe92",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2017",
+      "full_name": "Customer 17",
+      "email": "client_17@enterprise-corp.com",
+      "tier": "PLATINUM",
+      "country": "GB",
+      "signup_date": "2026-09-21T06:33:09.645Z",
+      "user_legacy_guid": "951be717-c0b5-48f1-ab34-c4c0ba12341d",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2018",
+      "full_name": "Customer 18",
+      "email": "client_18@enterprise-corp.com",
+      "tier": "SILVER",
+      "country": "IN",
+      "signup_date": "2026-09-20T06:33:09.645Z",
+      "user_legacy_guid": "15c024f6-b005-45d7-bee1-984ac0472658",
+      "tax_identifier_raw": "VAT-EU-9921"
+    },
+    {
+      "customer_id": "CUST_2019",
+      "full_name": "Customer 19",
+      "email": "client_19@enterprise-corp.com",
+      "tier": "STANDARD",
+      "country": "FR",
+      "signup_date": "2026-09-19T06:33:09.645Z",
+      "user_legacy_guid": "757c373b-3b41-43f6-acf8-d98f6dc080c4",
+      "tax_identifier_raw": "VAT-EU-9921"
+    }
+  ]
+}

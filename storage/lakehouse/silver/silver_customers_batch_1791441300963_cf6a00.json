@@ -1,0 +1,123 @@
+{
+  "batchId": "batch_1791441300963_cf6a00",
+  "tableName": "silver_customers",
+  "tier": "silver",
+  "processedAt": "2026-10-08T06:35:00.974Z",
+  "recordCount": 11,
+  "qualityScore": 77.5,
+  "qualityMetrics": {
+    "score": 77.5
+  },
+  "records": [
+    {
+      "customer_id": "CUST_2001",
+      "full_name": "Customer 1",
+      "email": "client_1@enterprise-corp.com",
+      "tier": "PLATINUM",
+      "country": "DE",
+      "signup_date": "2026-10-07T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2001",
+      "canonical_email": "client_1@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2003",
+      "full_name": "Customer 3",
+      "email": "client_3@enterprise-corp.com",
+      "tier": "STANDARD",
+      "country": "IN",
+      "signup_date": "2026-10-05T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2003",
+      "canonical_email": "client_3@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2004",
+      "full_name": "Customer 4",
+      "email": "client_4@enterprise-corp.com",
+      "tier": "GOLD",
+      "country": "FR",
+      "signup_date": "2026-10-04T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2004",
+      "canonical_email": "client_4@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2005",
+      "full_name": "Customer 5",
+      "email": "client_5@enterprise-corp.com",
+      "tier": "PLATINUM",
+      "country": "US",
+      "signup_date": "2026-10-03T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2005",
+      "canonical_email": "client_5@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2006",
+      "full_name": "Customer 6",
+      "email": "client_6@enterprise-corp.com",
+      "tier": "SILVER",
+      "country": "DE",
+      "signup_date": "2026-10-02T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2006",
+      "canonical_email": "client_6@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2007",
+      "full_name": "Customer 7",
+      "email": "client_7@enterprise-corp.com",
+      "tier": "STANDARD",
+      "country": "GB",
+      "signup_date": "2026-10-01T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2007",
+      "canonical_email": "client_7@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2010",
+      "full_name": "Customer 10",
+      "email": "client_10@enterprise-corp.com",
+      "tier": "SILVER",
+      "country": "US",
+      "signup_date": "2026-09-28T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2010",
+      "canonical_email": "client_10@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2011",
+      "full_name": "Customer 11",
+      "email": "client_11@enterprise-corp.com",
+      "tier": "STANDARD",
+      "country": "DE",
+      "signup_date": "2026-09-27T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2011",
+      "canonical_email": "client_11@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2016",
+      "full_name": "Customer 16",
+      "email": "client_16@enterprise-corp.com",
+      "tier": "GOLD",
+      "country": "DE",
+      "signup_date": "2026-09-22T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2016",
+      "canonical_email": "client_16@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2018",
+      "full_name": "Customer 18",
+      "email": "client_18@enterprise-corp.com",
+      "tier": "SILVER",
+      "country": "IN",
+      "signup_date": "2026-09-20T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2018",
+      "canonical_email": "client_18@enterprise-corp.com"
+    },
+    {
+      "customer_id": "CUST_2019",
+      "full_name": "Customer 19",
+      "email": "client_19@enterprise-corp.com",
+      "tier": "STANDARD",
+      "country": "FR",
+      "signup_date": "2026-09-19T06:35:00.963Z",
+      "canonical_customer_id": "CUST_2019",
+      "canonical_email": "client_19@enterprise-corp.com"
+    }
+  ]
+}

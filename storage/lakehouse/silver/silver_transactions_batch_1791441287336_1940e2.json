@@ -1,0 +1,12 @@
+{
+  "batchId": "batch_1791441287336_1940e2",
+  "tableName": "silver_transactions",
+  "tier": "silver",
+  "processedAt": "2026-10-08T06:34:47.346Z",
+  "recordCount": 0,
+  "qualityScore": 75,
+  "qualityMetrics": {
+    "score": 75
+  },
+  "records": []
+}

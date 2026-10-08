@@ -1,0 +1,123 @@
+{
+  "batchId": "batch_1791441768006_9e8e82",
+  "sourceName": "crm_customers",
+  "tier": "quarantine",
+  "quarantinedAt": "2026-10-08T06:42:48.014Z",
+  "violatedCount": 8,
+  "violationReason": "Data Contract Violation",
+  "agentDiagnosis": null,
+  "records": [
+    {
+      "row": {
+        "customer_id": "CUST_2003",
+        "full_name": "Customer 3",
+        "email": null,
+        "tier": "STANDARD",
+        "country": "IN",
+        "signup_date": "2026-10-05T06:42:48.006Z"
+      },
+      "violations": [
+        "Column 'email' is null or empty"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2004",
+        "full_name": "Customer 4",
+        "email": null,
+        "tier": "GOLD",
+        "country": "FR",
+        "signup_date": "2026-10-04T06:42:48.006Z"
+      },
+      "violations": [
+        "Column 'email' is null or empty"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2007",
+        "full_name": "Customer 7",
+        "email": null,
+        "tier": "STANDARD",
+        "country": "GB",
+        "signup_date": "2026-10-01T06:42:48.006Z"
+      },
+      "violations": [
+        "Column 'email' is null or empty"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2009",
+        "full_name": "Customer 9",
+        "email": null,
+        "tier": "PLATINUM",
+        "country": "FR",
+        "signup_date": "2026-09-29T06:42:48.006Z"
+      },
+      "violations": [
+        "Column 'email' is null or empty"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2010",
+        "full_name": "Customer 10",
+        "email": null,
+        "tier": "SILVER",
+        "country": "US",
+        "signup_date": "2026-09-28T06:42:48.006Z"
+      },
+      "violations": [
+        "Column 'email' is null or empty"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2013",
+        "full_name": "Customer 13",
+        "email": null,
+        "tier": "PLATINUM",
+        "country": "IN",
+        "signup_date": "2026-09-25T06:42:48.006Z"
+      },
+      "violations": [
+        "Column 'email' is null or empty"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2016",
+        "full_name": "Customer 16",
+        "email": null,
+        "tier": "GOLD",
+        "country": "DE",
+        "signup_date": "2026-09-22T06:42:48.006Z"
+      },
+      "violations": [
+        "Column 'email' is null or empty"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2019",
+        "full_name": "Customer 19",
+        "email": null,
+        "tier": "STANDARD",
+        "country": "FR",
+        "signup_date": "2026-09-19T06:42:48.006Z"
+      },
+      "violations": [
+        "Column 'email' is null or empty"
+      ],
+      "criticality": "CRITICAL"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "batchId": "batch_1791441316163_9c05fb",
+  "sourceName": "crm_customers",
+  "tier": "quarantine",
+  "quarantinedAt": "2026-10-08T06:35:16.172Z",
+  "violatedCount": 2,
+  "violationReason": "Data Contract Violation",
+  "agentDiagnosis": null,
+  "records": [
+    {
+      "row": {
+        "customer_id": "CUST_2000",
+        "full_name": "Customer 0",
+        "email": "client_0@enterprise-corp.com",
+        "tier": "GOLD",
+        "country": "US",
+        "signup_date": "2026-10-08T06:35:16.163Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2000' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "customer_id": "CUST_2002",
+        "full_name": "Customer 2",
+        "email": "client_2@enterprise-corp.com",
+        "tier": "SILVER",
+        "country": "GB",
+        "signup_date": "2026-10-06T06:35:16.163Z"
+      },
+      "violations": [
+        "Duplicate key 'CUST_2002' in column 'customer_id'"
+      ],
+      "criticality": "CRITICAL"
+    }
+  ]
+}

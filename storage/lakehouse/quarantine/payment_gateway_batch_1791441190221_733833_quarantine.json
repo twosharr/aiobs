@@ -1,0 +1,491 @@
+{
+  "batchId": "batch_1791441190221_733833",
+  "sourceName": "payment_gateway",
+  "tier": "quarantine",
+  "quarantinedAt": "2026-10-08T06:33:10.230Z",
+  "violatedCount": 30,
+  "violationReason": "Data Contract Violation",
+  "agentDiagnosis": null,
+  "records": [
+    {
+      "row": {
+        "transaction_id": "TXN_100000",
+        "account_id": "ACC_1",
+        "amount": "$338.99",
+        "currency": "GBP",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:40.407Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$338.99' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100001",
+        "account_id": "ACC_2",
+        "amount": "$144.11",
+        "currency": "JPY",
+        "status": "PENDING",
+        "created_at": "2026-10-08T06:32:31.370Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$144.11' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100002",
+        "account_id": "ACC_3",
+        "amount": "$399.95",
+        "currency": "GBP",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:50.466Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$399.95' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100003",
+        "account_id": "ACC_4",
+        "amount": "$129.29",
+        "currency": "JPY",
+        "status": "PENDING",
+        "created_at": "2026-10-08T06:32:10.468Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$129.29' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100004",
+        "account_id": "ACC_5",
+        "amount": "$452.15",
+        "currency": "GBP",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:37.518Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$452.15' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100005",
+        "account_id": "ACC_6",
+        "amount": "$323.14",
+        "currency": "JPY",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:23.077Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$323.14' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100006",
+        "account_id": "ACC_7",
+        "amount": "$277.08",
+        "currency": "USD",
+        "status": "PENDING",
+        "created_at": "2026-10-08T06:33:08.137Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$277.08' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100007",
+        "account_id": "ACC_8",
+        "amount": "$267.12",
+        "currency": "USD",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:24.959Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$267.12' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100008",
+        "account_id": "ACC_9",
+        "amount": "$447.90",
+        "currency": "USD",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:31.222Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$447.90' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100009",
+        "account_id": "ACC_10",
+        "amount": "$244.22",
+        "currency": "EUR",
+        "status": "FAILED",
+        "created_at": "2026-10-08T06:33:07.728Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$244.22' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100010",
+        "account_id": "ACC_11",
+        "amount": "$220.48",
+        "currency": "EUR",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:25.529Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$220.48' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100011",
+        "account_id": "ACC_12",
+        "amount": "$191.47",
+        "currency": "USD",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:49.375Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$191.47' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100012",
+        "account_id": "ACC_13",
+        "amount": "$92.02",
+        "currency": "EUR",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:10.700Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$92.02' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100013",
+        "account_id": "ACC_14",
+        "amount": "$34.84",
+        "currency": "GBP",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:43.034Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$34.84' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100014",
+        "account_id": "ACC_15",
+        "amount": "$21.93",
+        "currency": "EUR",
+        "status": "FAILED",
+        "created_at": "2026-10-08T06:32:31.162Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$21.93' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100015",
+        "account_id": "ACC_1",
+        "amount": "$230.28",
+        "currency": "GBP",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:57.029Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$230.28' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100016",
+        "account_id": "ACC_2",
+        "amount": "$380.45",
+        "currency": "GBP",
+        "status": "PENDING",
+        "created_at": "2026-10-08T06:32:35.044Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$380.45' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100017",
+        "account_id": "ACC_3",
+        "amount": "$134.17",
+        "currency": "EUR",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:15.993Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$134.17' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100018",
+        "account_id": "ACC_4",
+        "amount": "$110.47",
+        "currency": "JPY",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:22.742Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$110.47' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100019",
+        "account_id": "ACC_5",
+        "amount": "$104.76",
+        "currency": "GBP",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:45.063Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$104.76' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100020",
+        "account_id": "ACC_6",
+        "amount": "$504.95",
+        "currency": "USD",
+        "status": "PENDING",
+        "created_at": "2026-10-08T06:32:26.114Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$504.95' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100021",
+        "account_id": "ACC_7",
+        "amount": "$106.53",
+        "currency": "GBP",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:33:08.881Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$106.53' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100022",
+        "account_id": "ACC_8",
+        "amount": "$408.09",
+        "currency": "JPY",
+        "status": "PENDING",
+        "created_at": "2026-10-08T06:32:57.886Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$408.09' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100023",
+        "account_id": "ACC_9",
+        "amount": "$62.66",
+        "currency": "USD",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:47.261Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$62.66' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100024",
+        "account_id": "ACC_10",
+        "amount": "$414.20",
+        "currency": "GBP",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:19.050Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$414.20' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100025",
+        "account_id": "ACC_11",
+        "amount": "$488.00",
+        "currency": "JPY",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:56.695Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$488.00' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100026",
+        "account_id": "ACC_12",
+        "amount": "$380.57",
+        "currency": "JPY",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:33:07.391Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$380.57' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100027",
+        "account_id": "ACC_13",
+        "amount": "$36.86",
+        "currency": "JPY",
+        "status": "PENDING",
+        "created_at": "2026-10-08T06:32:54.305Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$36.86' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100028",
+        "account_id": "ACC_14",
+        "amount": "$57.26",
+        "currency": "EUR",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:32:47.457Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$57.26' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100029",
+        "account_id": "ACC_15",
+        "amount": "$375.00",
+        "currency": "USD",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:33:02.181Z",
+        "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+        "exchange_fee_estimate": "0.025%"
+      },
+      "violations": [
+        "Value '$375.00' out of valid range (0.01-1000000)"
+      ],
+      "criticality": "CRITICAL"
+    }
+  ]
+}

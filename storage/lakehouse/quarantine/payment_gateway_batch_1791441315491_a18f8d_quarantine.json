@@ -1,0 +1,95 @@
+{
+  "batchId": "batch_1791441315491_a18f8d",
+  "sourceName": "payment_gateway",
+  "tier": "quarantine",
+  "quarantinedAt": "2026-10-08T06:35:15.499Z",
+  "violatedCount": 6,
+  "violationReason": "Data Contract Violation",
+  "agentDiagnosis": null,
+  "records": [
+    {
+      "row": {
+        "transaction_id": "TXN_100001",
+        "account_id": "ACC_2",
+        "amount": 231.27,
+        "currency": "JPY",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:35:00.277Z"
+      },
+      "violations": [
+        "Duplicate key 'TXN_100001' in column 'transaction_id'"
+      ],
+      "criticality": "HIGH"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100003",
+        "account_id": "ACC_4",
+        "amount": 402.56,
+        "currency": "EUR",
+        "status": "FAILED",
+        "created_at": "2026-10-08T06:34:43.565Z"
+      },
+      "violations": [
+        "Duplicate key 'TXN_100003' in column 'transaction_id'"
+      ],
+      "criticality": "HIGH"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100005",
+        "account_id": "ACC_6",
+        "amount": 294.2,
+        "currency": "USD",
+        "status": "FAILED",
+        "created_at": "2026-10-08T06:34:43.401Z"
+      },
+      "violations": [
+        "Duplicate key 'TXN_100005' in column 'transaction_id'"
+      ],
+      "criticality": "HIGH"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100006",
+        "account_id": "ACC_7",
+        "amount": 190.52,
+        "currency": "GBP",
+        "status": "FAILED",
+        "created_at": "2026-10-08T06:35:09.216Z"
+      },
+      "violations": [
+        "Duplicate key 'TXN_100006' in column 'transaction_id'"
+      ],
+      "criticality": "HIGH"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100010",
+        "account_id": "ACC_11",
+        "amount": 395.32,
+        "currency": "GBP",
+        "status": "PENDING",
+        "created_at": "2026-10-08T06:34:49.159Z"
+      },
+      "violations": [
+        "Duplicate key 'TXN_100010' in column 'transaction_id'"
+      ],
+      "criticality": "HIGH"
+    },
+    {
+      "row": {
+        "transaction_id": "TXN_100016",
+        "account_id": "ACC_2",
+        "amount": 429.07,
+        "currency": "EUR",
+        "status": "SUCCESS",
+        "created_at": "2026-10-08T06:34:27.163Z"
+      },
+      "violations": [
+        "Duplicate key 'TXN_100016' in column 'transaction_id'"
+      ],
+      "criticality": "HIGH"
+    }
+  ]
+}

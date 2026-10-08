@@ -1,0 +1,341 @@
+{
+  "batchId": "batch_1791441189648_849828",
+  "sourceName": "payment_gateway",
+  "tier": "bronze",
+  "ingestedAt": "2026-10-08T06:33:09.649Z",
+  "recordCount": 30,
+  "metadata": {
+    "drift": {
+      "sourceName": "payment_gateway",
+      "timestamp": "2026-10-08T06:33:09.649Z",
+      "hasDrift": true,
+      "isBreaking": true,
+      "diff": {
+        "addedColumns": [
+          {
+            "column": "payment_gateway_vendor_v2",
+            "detectedType": "string",
+            "severity": "INFO"
+          },
+          {
+            "column": "exchange_fee_estimate",
+            "detectedType": "string",
+            "severity": "INFO"
+          }
+        ],
+        "missingColumns": [],
+        "typeMismatches": [
+          {
+            "column": "amount",
+            "expected": "number",
+            "received": "string",
+            "severity": "HIGH"
+          }
+        ]
+      },
+      "baselineVersion": "1.0.0"
+    }
+  },
+  "records": [
+    {
+      "transaction_id": "TXN_100000",
+      "account_id": "ACC_1",
+      "amount": "$312.92",
+      "currency": "USD",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:39.418Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100001",
+      "account_id": "ACC_2",
+      "amount": "$506.75",
+      "currency": "USD",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:39.364Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100002",
+      "account_id": "ACC_3",
+      "amount": "$264.62",
+      "currency": "EUR",
+      "status": "PENDING",
+      "created_at": "2026-10-08T06:32:12.707Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100003",
+      "account_id": "ACC_4",
+      "amount": "$383.41",
+      "currency": "GBP",
+      "status": "FAILED",
+      "created_at": "2026-10-08T06:32:42.817Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100004",
+      "account_id": "ACC_5",
+      "amount": "$244.50",
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:33:03.519Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100005",
+      "account_id": "ACC_6",
+      "amount": "$457.31",
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:17.198Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100006",
+      "account_id": "ACC_7",
+      "amount": "$366.95",
+      "currency": "EUR",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:32.030Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100007",
+      "account_id": "ACC_8",
+      "amount": "$239.90",
+      "currency": "EUR",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:58.460Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100008",
+      "account_id": "ACC_9",
+      "amount": "$374.45",
+      "currency": "USD",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:48.368Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100009",
+      "account_id": "ACC_10",
+      "amount": "$359.64",
+      "currency": "GBP",
+      "status": "FAILED",
+      "created_at": "2026-10-08T06:32:21.894Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100010",
+      "account_id": "ACC_11",
+      "amount": "$305.16",
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:33.129Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100011",
+      "account_id": "ACC_12",
+      "amount": "$166.08",
+      "currency": "GBP",
+      "status": "FAILED",
+      "created_at": "2026-10-08T06:32:31.157Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100012",
+      "account_id": "ACC_13",
+      "amount": "$405.97",
+      "currency": "USD",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:13.128Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100013",
+      "account_id": "ACC_14",
+      "amount": "$383.88",
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:17.784Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100014",
+      "account_id": "ACC_15",
+      "amount": "$171.35",
+      "currency": "EUR",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:33:08.333Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100015",
+      "account_id": "ACC_1",
+      "amount": "$64.32",
+      "currency": "USD",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:23.537Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100016",
+      "account_id": "ACC_2",
+      "amount": "$480.10",
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:28.029Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100017",
+      "account_id": "ACC_3",
+      "amount": "$292.61",
+      "currency": "JPY",
+      "status": "PENDING",
+      "created_at": "2026-10-08T06:32:16.245Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100018",
+      "account_id": "ACC_4",
+      "amount": "$149.95",
+      "currency": "EUR",
+      "status": "FAILED",
+      "created_at": "2026-10-08T06:32:27.790Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100019",
+      "account_id": "ACC_5",
+      "amount": "$31.50",
+      "currency": "USD",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:24.924Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100020",
+      "account_id": "ACC_6",
+      "amount": "$111.85",
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:56.622Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100021",
+      "account_id": "ACC_7",
+      "amount": "$423.41",
+      "currency": "USD",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:49.746Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100022",
+      "account_id": "ACC_8",
+      "amount": "$369.79",
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:23.994Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100023",
+      "account_id": "ACC_9",
+      "amount": "$110.32",
+      "currency": "EUR",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:30.624Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100024",
+      "account_id": "ACC_10",
+      "amount": "$301.48",
+      "currency": "USD",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:54.091Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100025",
+      "account_id": "ACC_11",
+      "amount": "$51.57",
+      "currency": "GBP",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:12.212Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100026",
+      "account_id": "ACC_12",
+      "amount": "$44.42",
+      "currency": "EUR",
+      "status": "PENDING",
+      "created_at": "2026-10-08T06:32:20.514Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100027",
+      "account_id": "ACC_13",
+      "amount": "$96.59",
+      "currency": "GBP",
+      "status": "PENDING",
+      "created_at": "2026-10-08T06:32:53.386Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100028",
+      "account_id": "ACC_14",
+      "amount": "$62.81",
+      "currency": "USD",
+      "status": "PENDING",
+      "created_at": "2026-10-08T06:33:02.566Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    },
+    {
+      "transaction_id": "TXN_100029",
+      "account_id": "ACC_15",
+      "amount": "$210.92",
+      "currency": "JPY",
+      "status": "SUCCESS",
+      "created_at": "2026-10-08T06:32:29.873Z",
+      "payment_gateway_vendor_v2": "STRIPE_GLOBAL",
+      "exchange_fee_estimate": "0.025%"
+    }
+  ]
+}
